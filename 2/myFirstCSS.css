@@ -1,0 +1,31 @@
+body {
+    background-color: sandybrown;
+    color: blanchedalmond
+}
+
+h1 {
+    color: rgb(0,0,255);
+    text-align: center;
+}
+
+p {
+    color: #A52A2A;
+    font-size: 30px;
+}
+table, th, td {
+    border: 1px solid;
+    padding: 5px;
+}
+table{
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+.img{
+    width: 20vw;
+}
+h2{
+    font-size: 25px;
+    color: red;
+}
