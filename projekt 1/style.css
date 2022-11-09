@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(255, 221, 193);
+    margin: 0px;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    flex-direction: column;
+    /* overflow-x: hidden; */
+}
+.autor{
+    background-color: rgb(255, 229, 208);
+    width:97vw;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 2px solid black;
+}
+.autor-title{
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgb(255, 221, 193);
+    position: relative;
+    top: -20px;
+    left: -15px;
+    padding: 8px;
+    border-radius: 15px;
+}
+.info{
+    margin-top: -15px;;
+    font-size: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.description{
+    font-size: 13px;
+    margin-left: 20px;
+}
+.photos{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+.photos img{
+    width: 100%;
+}
+#Dane{
+    border-top: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.dane-title{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px;
+}
+.structure{
+    margin: 0px 30px;
+}
+.table-data th, .table-data td{
+    border: 2px solid rgb(114, 114, 114);
+    padding: 2px 5px;
+}
+.table-data{
+    border-collapse: collapse;
+    border: 3px solid black;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 20px;
+}
+.table-data-formats{
+    border-collapse: collapse;
+    border: 3px solid black;
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 20px;
+    width: 70%;
+}
+.table-data-formats th, .table-data-formats td{
+    border: 2px solid rgb(114, 114, 114);
+    padding: 2px 5px;
+    width: 33%;
+    padding: 10px;
+}
+.table-data-formats a{
+    position: relative; 
+    left: 45%;
+}
+#Internet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+    background-color: antiquewhite;
+    border-top: 2px solid white;
+    padding-bottom: 20px;
+}
+#Internet img{
+    margin-bottom: 10px;
+    width: 15%;
+}
+#Internet form input[type='text']{
+    
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0px;
+}
+#Internet form input[type='text']:focus, #Internet form input[type='text']:hover{
+    border: 2px solid rgb(243, 92, 54);
+    box-shadow: 2px 2px 1px;
+}
+#Internet form input[type='submit']{
+    background-color: rgb(243, 92, 54);
+    padding: 5px;
+    border-radius: 5px;
+}
+#Internet form input[type='submit']:hover{
+    border: 2px solid rgb(243, 92, 54);
+    
+}
